@@ -1,0 +1,17 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8208
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: file
+# 阿里云对象云存储配置
+#aliyun:
+#  oss: #存储
+#    file:
+#      endpoint: xxx   # 域
+#      accessKeyId: xxx  # 秘钥KeyId
+#      accessKeySecret: xxx # 秘钥KeySecret
+#      bucketName: xxx # 桶名
+#      url: xxx  # 访问地址

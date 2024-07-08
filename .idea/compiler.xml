@@ -2,21 +2,28 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="take-out-server" />
-        <module name="take-out-common" />
-        <module name="take-out-model" />
+        <module name="take_out_gateway" />
+        <module name="take_out_common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="take_out_model" target="1.8" />
+      <module name="take_out_server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="take-out-common" options="-parameters" />
-      <module name="take-out-model" options="-parameters" />
-      <module name="take-out-server" options="-parameters" />
+      <module name="take_out_common" options="-parameters" />
+      <module name="take_out_file" options="-parameters" />
+      <module name="take_out_gateway" options="-parameters" />
+      <module name="take_out_model" options="-parameters" />
+      <module name="take_out_server" options="-parameters" />
     </option>
   </component>
 </project>
