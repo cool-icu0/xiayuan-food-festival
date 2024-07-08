@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.sky.mapper.OrderMapper">
+<mapper namespace="com.cool.mapper.OrderMapper">
 
     <insert id="insert" parameterType="Orders" useGeneratedKeys="true" keyProperty="id">
         insert into orders
@@ -12,7 +12,7 @@
                 #{estimatedDeliveryTime}, #{deliveryStatus}, #{packAmount}, #{tablewareNumber}, #{tablewareStatus})
     </insert>
 
-    <update id="update" parameterType="com.sky.entity.Orders">
+    <update id="update" parameterType="com.cool.entity.Orders">
         update orders
         <set>
             <if test="cancelReason != null and cancelReason!='' ">
@@ -100,7 +100,7 @@
     </select>
 
 
-    <select id="getSalesTop10" resultType="com.sky.dto.GoodsSalesDTO">
+    <select id="getSalesTop10" resultType="com.cool.dto.GoodsSalesDTO">
         select od.name name,sum(od.number) number from order_detail od ,orders o
         where od.order_id = o.id
         and o.status = 5

@@ -12,6 +12,7 @@
         <module name="take_out_file" />
         <module name="take_out_model" />
         <module name="take_out_server" />
+        <module name="take_out_admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,17 +1,15 @@
 # 应用服务 WEB 访问端口
 server:
   port: 8208
-  servlet:
-    context-path: /api
 spring:
   application:
     name: file
 # 阿里云对象云存储配置
-#aliyun:
-#  oss: #存储
-#    file:
-#      endpoint: xxx   # 域
-#      accessKeyId: xxx  # 秘钥KeyId
-#      accessKeySecret: xxx # 秘钥KeySecret
-#      bucketName: xxx # 桶名
-#      url: xxx  # 访问地址
+aliyun:
+  oss: #存储
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com   # 域
+      accessKeyId: LTAI5tDn3tjPzSEHfSSCAh1b  # 秘钥KeyId
+      accessKeySecret: svQugzLMYOEsrnCom47Xy9uXeEeVUF # 秘钥KeySecret
+      bucketName: take-out-file  # 桶名
+      url: take-out-file.oss-cn-beijing.aliyuncs.com  # 访问地址

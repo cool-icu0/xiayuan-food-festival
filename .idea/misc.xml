@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/take-out/take_out_file/pom.xml" />
         <option value="$PROJECT_DIR$/take-out/take_out_model/pom.xml" />
         <option value="$PROJECT_DIR$/take-out/take_out_server/pom.xml" />
+        <option value="$PROJECT_DIR$/take-out/take_out_admin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

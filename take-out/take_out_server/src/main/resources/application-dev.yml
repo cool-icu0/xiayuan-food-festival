@@ -1,9 +1,9 @@
 sky:
-  alioss:
-    endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: xxxxxxxxx
-    access-key-secret: xxxxxxxxx
-    bucket-name: cool-take-out
+#  alioss:
+#    endpoint: oss-cn-beijing.aliyuncs.com
+#    access-key-id: xxxxxxxxx
+#    access-key-secret: xxxxxxxxx
+#    bucket-name: cool-take-out
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
