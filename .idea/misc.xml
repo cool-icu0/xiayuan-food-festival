@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/take-out/pom.xml" />
+        <option value="$PROJECT_DIR$/take-out/take-out-common/pom.xml" />
+        <option value="$PROJECT_DIR$/take-out/take-out-model/pom.xml" />
       </list>
     </option>
   </component>

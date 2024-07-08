@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nacos:
+    # 容器名字
+    container_name: nacos
+    # 镜像名字
+    image: nacos/nacos-server:v2.1.0-slim
+    # 容器暴露的端口
+    ports:
+      - "8848:8848"
+      - "9848:9848"
+      - "9849:9849"
+    privileged: true
+    # 重启策略
+    restart: always
+    # 环境变量
+    environment:
+      - TZ=Asia/Shanghai
+      - MODE=standalone
