@@ -9,12 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="take_out_gateway" />
         <module name="take_out_common" />
+        <module name="take_out_file" />
+        <module name="take_out_model" />
+        <module name="take_out_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
-      <module name="take_out_model" target="1.8" />
-      <module name="take_out_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -13,6 +13,10 @@
     <file url="file://$PROJECT_DIR$/take-out/take-out-file/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/take-out/take-out-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/take-out/take-out-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/take-out/take_out_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/take-out/take_out_file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/take-out/take_out_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/take-out/take_out_model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/take-out/take_out_server/src/main/java" charset="UTF-8" />
   </component>
 </project>
