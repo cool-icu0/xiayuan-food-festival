@@ -1,6 +1,16 @@
 # 应用服务 WEB 访问端口
 server:
-  port: 8201
+  port: 8101
 spring:
   application:
     name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#    gateway:
+#      routes: # 路由配置
+#        - id: user-service
+#          uri: lb://user-service
+#          predicates:
+#            - Path=/user/**
