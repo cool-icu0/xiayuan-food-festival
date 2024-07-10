@@ -10,15 +10,21 @@ spring:
         server-addr: 127.0.0.1:8848
     gateway:
       routes: # 路由配置
-        - id: take_out_file
-          uri: lb://take_out_file
+        - id: file
+#          uri: lb://file
+          uri: http://localhost:8108
           predicates:
             - Path=/admin/common/**
-        - id: take_out_all
-          uri: lb://take_out_all
-          predicates:
-            - Path=/**
+#        - id: take_out_all
+#          uri: lb://take_out_all
+#          predicates:
+#            - Path=/**
         - id: take_out_admin
           uri: lb://take_out_admin
           predicates:
             - Path=/admin/**
+        - id: take_out_user
+#          uri: lb://take_out_user
+          uri: http://localhost:8104
+          predicates:
+            - Path=/user/**

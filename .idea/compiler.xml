@@ -30,6 +30,7 @@
       <module name="take_out_model" options="-parameters" />
       <module name="take_out_notify" options="-parameters" />
       <module name="take_out_server" options="-parameters" />
+      <module name="take_out_user" options="-parameters" />
     </option>
   </component>
 </project>

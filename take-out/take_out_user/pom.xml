@@ -7,6 +7,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>take_out_user</name>
     <description>take_out_user</description>
+    <parent>
+        <artifactId>take-out</artifactId>
+        <groupId>com.cool</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,6 +28,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>
@@ -54,7 +67,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.example.take_out_user.TakeOutUserApplication</mainClass>
+                    <mainClass>com.cool.take_out_user.TakeOutUserApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

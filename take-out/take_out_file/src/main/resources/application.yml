@@ -5,7 +5,11 @@ server:
 #    context-path: /api
 spring:
   application:
-    name: take_out_file
+    name: file
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
 # 阿里云对象云存储配置
 aliyun:
   oss: #存储

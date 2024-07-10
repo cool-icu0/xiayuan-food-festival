@@ -1,4 +1,4 @@
-package com.example.take_out_user;
+package com.cool.take_out_user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
