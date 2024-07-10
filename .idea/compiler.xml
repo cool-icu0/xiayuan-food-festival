@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="take_out_common" />
+        <module name="take_out_user" />
         <module name="take_out_gateway" />
         <module name="take_out_file" />
         <module name="take_out_model" />
