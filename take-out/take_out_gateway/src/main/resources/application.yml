@@ -1,6 +1,6 @@
 # 应用服务 WEB 访问端口
 server:
-  port: 8101
+  port: 8080
 spring:
   application:
     name: gateway
@@ -8,9 +8,17 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-#    gateway:
-#      routes: # 路由配置
-#        - id: user-service
-#          uri: lb://user-service
-#          predicates:
-#            - Path=/user/**
+    gateway:
+      routes: # 路由配置
+        - id: take_out_file
+          uri: lb://take_out_file
+          predicates:
+            - Path=/admin/common/**
+        - id: take_out_all
+          uri: lb://take_out_all
+          predicates:
+            - Path=/**
+        - id: take_out_admin
+          uri: lb://take_out_admin
+          predicates:
+            - Path=/admin/**

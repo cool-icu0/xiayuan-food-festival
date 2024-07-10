@@ -1,9 +1,11 @@
 # 应用服务 WEB 访问端口
 server:
-  port: 8208
+  port: 8108
+#  servlet:
+#    context-path: /api
 spring:
   application:
-    name: file
+    name: take_out_file
 # 阿里云对象云存储配置
 aliyun:
   oss: #存储
