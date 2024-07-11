@@ -25,3 +25,9 @@ aliyun:
       accessKeySecret: svQugzLMYOEsrnCom47Xy9uXeEeVUF # 秘钥KeySecret
       bucketName: take-out-file  # 桶名
       url: https://take-out-file.oss-cn-beijing.aliyuncs.com  # 访问地址
+sky:
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tDn3tjPzSEHfSSCAh1b
+    access-key-secret: svQugzLMYOEsrnCom47Xy9uXeEeVUF
+    bucket-name: take-out-file
