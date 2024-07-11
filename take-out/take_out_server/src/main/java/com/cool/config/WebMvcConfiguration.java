@@ -65,7 +65,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .groupName("管理端接口")
                 .apiInfo(apiInfo)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.sky.controller.admin"))
+                .apis(RequestHandlerSelectors.basePackage("com.cool.controller.admin"))
                 .paths(PathSelectors.any())
                 .build();
         return docket;
@@ -81,7 +81,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .groupName("用户端接口")
                 .apiInfo(apiInfo)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.sky.controller.user"))
+                .apis(RequestHandlerSelectors.basePackage("com.cool.controller.user"))
                 .paths(PathSelectors.any())
                 .build();
         return docket;

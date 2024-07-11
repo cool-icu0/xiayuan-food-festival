@@ -29,6 +29,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -61,7 +62,7 @@ public class OrderServiceImpl implements OrderService {
     //后面两个用于微信支付
     @Autowired
     private UserMapper userMapper;
-    @Autowired
+    @Resource
     private WeChatPayUtil weChatPayUtil;
 
     @Autowired
