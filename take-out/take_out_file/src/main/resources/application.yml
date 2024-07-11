@@ -5,7 +5,7 @@ server:
 #    context-path: /api
 spring:
   application:
-    name: take_out_file
+    name: take-out-file
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
@@ -24,4 +24,4 @@ aliyun:
       accessKeyId: LTAI5tDn3tjPzSEHfSSCAh1b  # 秘钥KeyId
       accessKeySecret: svQugzLMYOEsrnCom47Xy9uXeEeVUF # 秘钥KeySecret
       bucketName: take-out-file  # 桶名
-      url: take-out-file.oss-cn-beijing.aliyuncs.com  # 访问地址
+      url: https://take-out-file.oss-cn-beijing.aliyuncs.com  # 访问地址

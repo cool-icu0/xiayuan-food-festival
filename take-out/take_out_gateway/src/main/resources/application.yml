@@ -10,7 +10,7 @@ spring:
         server-addr: 127.0.0.1:8848
     gateway:
       routes: # 路由配置
-        - id: file
+        - id: take-out-file
           uri: http://localhost:8108
           predicates:
             - Path=/admin/common/**
