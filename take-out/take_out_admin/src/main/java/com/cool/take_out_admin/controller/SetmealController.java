@@ -4,7 +4,8 @@ import com.cool.dto.SetmealDTO;
 import com.cool.dto.SetmealPageQueryDTO;
 import com.cool.result.PageResult;
 import com.cool.result.Result;
-import com.cool.service.SetmealService;
+
+import com.cool.take_out_admin.service.SetmealService;
 import com.cool.vo.SetmealVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

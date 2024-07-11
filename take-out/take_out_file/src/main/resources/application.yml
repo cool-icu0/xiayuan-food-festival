@@ -5,11 +5,17 @@ server:
 #    context-path: /api
 spring:
   application:
-    name: file
+    name: take_out_file
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+        namespace: public
 # 阿里云对象云存储配置
 aliyun:
   oss: #存储

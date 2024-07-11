@@ -5,7 +5,7 @@ import com.cool.dto.DishPageQueryDTO;
 import com.cool.entity.Dish;
 import com.cool.result.PageResult;
 import com.cool.result.Result;
-import com.cool.service.DishService;
+import com.cool.take_out_admin.service.DishService;
 import com.cool.vo.DishVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

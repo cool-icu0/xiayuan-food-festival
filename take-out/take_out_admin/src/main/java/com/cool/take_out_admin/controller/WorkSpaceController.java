@@ -1,7 +1,8 @@
 package com.cool.take_out_admin.controller;
 
 import com.cool.result.Result;
-import com.cool.service.WorkspaceService;
+
+import com.cool.take_out_admin.service.WorkspaceService;
 import com.cool.vo.BusinessDataVO;
 import com.cool.vo.DishOverViewVO;
 import com.cool.vo.OrderOverViewVO;

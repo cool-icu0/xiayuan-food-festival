@@ -1,4 +1,4 @@
-package com.cool.take_out_notify.service;
+package com.cool.take_out_admin.service;
 
 import com.cool.dto.*;
 import com.cool.result.PageResult;

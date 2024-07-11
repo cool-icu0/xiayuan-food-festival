@@ -1,7 +1,7 @@
 package com.cool.take_out_admin.controller;
 
 import com.cool.result.Result;
-import com.cool.service.ReportService;
+import com.cool.take_out_admin.service.ReportService;
 import com.cool.vo.OrderReportVO;
 import com.cool.vo.SalesTop10ReportVO;
 import com.cool.vo.TurnoverReportVO;

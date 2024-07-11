@@ -6,7 +6,7 @@ import com.cool.dto.OrdersPageQueryDTO;
 import com.cool.dto.OrdersRejectionDTO;
 import com.cool.result.PageResult;
 import com.cool.result.Result;
-import com.cool.service.OrderService;
+import com.cool.take_out_admin.service.OrderService;
 import com.cool.vo.OrderStatisticsVO;
 import com.cool.vo.OrderVO;
 import io.swagger.annotations.Api;
